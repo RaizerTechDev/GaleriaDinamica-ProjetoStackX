@@ -1,0 +1,109 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-image: url("../assets/images/tech-background.jpg"); /* Corrija o caminho da imagem de fundo */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para imagem*/
+.robot--tech {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Estilos para o título */
+.title--main {
+  display: inline-block;
+  vertical-align: middle;
+  color: #95df46;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Estilos para o span */
+.title--text {
+  color: #525253; /* Define a cor do texto do span */
+  text-decoration: underline; /* Adiciona sublinhado ao texto do span */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estilos para o input de arquivo */
+#inputFile {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #646161;
+}
+
+/* Estilos para o botão Adicionar */
+#addBtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+/* Efeito hover para o botão Adicionar */
+#addBtn:hover {
+  background-color: #cd5ad3; /* Cor de fundo mais escura no hover */
+}
+
+/* Estilos para a galeria de imagens */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: calc(33.33% - 10px); /* 3 imagens por linha com margem de 5px */
+  margin: 5px;
+}
+
+/* Estilos para tornar a galeria responsiva */
+@media only screen and (max-width: 600px) {
+  /* Estilos para o título */
+  .title--main {
+    font-size: 30px;
+  }
+
+  /* Estilos para o input de arquivo */
+  #inputFile {
+    margin-left: -30px;
+    font-size: 14px;
+  }
+
+  /* Estilos para o botão Adicionar */
+  #addBtn {
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px; /* Aumentando o espaçamento inferior */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  }
+  .gallery img {
+    width: calc(33.33% - 10px); /*  imagens por linha com margem de 5px */
+  }
+}
