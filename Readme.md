@@ -5,7 +5,7 @@
  <div align="center">
 <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="45" width="45">
 
-[ ( Clique aqui e venha interagir com o Projeto `Dynamic-Gallery!!!`) ](#link-projeto)
+[ ( Clique aqui e venha interagir com o Projeto `Dynamic-Gallery!!!`) ](https://rafarz76-dynamicgallery.netlify.app/)
 
 <br>
 
